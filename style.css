@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+
+body{
+    color: black;
+}
+
+h1{
+    font-family: 'Noto Serif', serif;
+    text-shadow: 5px 3px black;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    margin-bottom: 30px;
+    font-weight: bold;
+    color: red;
+}
+h2{
+    font-family: 'Noto Serif', serif;
+    font-weight: bold;
+    color: white;
+    font-size: 45px;
+    text-shadow: 5px 3px black;
+}
+#img1{
+    width: 300px;
+}
+#img2{
+    width: 300px;
+}
+#img1,#img2{
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border: 2px solid black;
+}
+.test_img_and_result{
+    background-image: linear-gradient(rgb(253, 253, 120),rgb(83, 255, 155),rgb(125, 190, 255),rgb(255, 102, 184));
+    margin-bottom: 50px;
+    padding-top: 10px;
+    padding-left: 50px;
+    border: 3px solid black;
+    font-weight: bold !important;
+    font-size: 25px !important;    
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 60px;
+}
+#testImg{
+    width: 200px;
+}
+.copy_right_footer{
+    background-color: white;
+    font-family: 'special elite';
+    position: fixed;
+    color: black;
+    bottom: 0;
+    width: 100%;
+    line-height:2;
+    text-align: center;
+}
